@@ -9,6 +9,7 @@ register = template.Library()
 def sub(value, arg):
     return value - arg
 
+
 @register.filter
 def mark(value):
     extensions = ["nl2br", "fenced_code"]
